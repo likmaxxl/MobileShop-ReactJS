@@ -1,0 +1,69 @@
+#mainPage {
+  padding-top: 80px;
+  .logo {
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    span {
+      color: #10b2ff;
+    }
+    p {
+      margin-left: 3px;
+      margin-top: -13px;
+      font-size: 17px;
+      color: #8a8686;
+    }
+  }
+  .cover {
+    padding: 50px 20px;
+    background-image: url("https://images.pexels.com/photos/404280/pexels-photo-404280.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: cover;
+    background-repeat: no-repeat;
+    & {
+      @media all and (min-width: 992px) {
+        padding: 300px 20px;
+      }
+    }
+    .background {
+      p {
+        text-align: right;
+        font-weight: 600;
+        margin: 150px 0 0 0;
+        font-family: "Noto Sans JP", sans-serif;
+        font-size: 35px;
+        color: white;
+        text-transform: uppercase;
+        & {
+          @media all and (min-width: 992px) {
+            margin: 50px 0 0 0;
+            font-size: 50px;
+          }
+        }
+        &:nth-of-type(1) span {
+          color: #ff8100;
+        }
+
+        &:nth-of-type(2) {
+          margin-top: -16px;
+          font-size: 25px;
+          & {
+            @media all and (min-width: 992px) {
+                margin-top: -20px;
+            }
+          }
+          span:nth-of-type(2) {
+            color: #ff8100;
+          }
+          span:nth-of-type(3) {
+            color: #ff2f00;
+          }
+          & {
+            @media all and (min-width: 992px) {
+              font-size: 35px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

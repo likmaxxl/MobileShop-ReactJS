@@ -1,0 +1,137 @@
+#singleProduct{
+
+.row{
+
+margin-bottom:30px;
+  .col-md-6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  }
+  .header{
+    margin-bottom:55px;
+      padding-top:50px;
+    h1{
+      text-align: center;
+      text-transform: capitalize;
+    }
+  }
+  .image{
+    img{
+width:100%;
+    }
+  }
+  .head{
+    h2{
+      text-transform: capitalize;
+      margin:0 0 30px 0;
+    }
+    ul{
+      margin:20px auto;
+      padding:0;
+      list-style: none;
+li{
+  color:#424242;
+  padding:3px 8px;
+  margin:5px 0;
+  font-size: 18px;
+  border:solid 1px #ececec;
+  font-weight: 500;
+  span{
+    font-weight: 700;
+  color:#424242;
+    font-size: 16px
+  }
+}
+    }
+
+    .about{
+      margin-top:30px;
+      h6{
+        font-size:15px;
+font-weight: 700;
+      }
+    }
+
+  }
+  .btns{
+    display: flex;
+    overflow: hidden;
+    margin-top:30px;
+    .back {
+color: #fff !important;
+text-transform: uppercase;
+text-decoration: none;
+background: #ed3330;
+padding: 12px;
+border-radius: 5px;
+display: inline-block;
+border: none;
+transition: all 0.4s ease 0s;
+  cursor:pointer;
+&:hover{
+  background: #e87171;
+  letter-spacing: 1px;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+  transition: all 0.4s ease 0s;
+}
+}
+.addTo{
+  cursor:pointer;
+  margin-left:20px;
+  border: none;
+background: #42a09c;
+color: #ffffff !important;
+font-weight: 100;
+padding: 12px;
+text-transform: uppercase;
+border-radius: 6px;
+display: inline-block;
+transition: all 0.3s ease 0s;
+&:hover{
+  color: #404040 !important;
+font-weight: 700 !important;
+letter-spacing: 3px;
+background: #52cccc;
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.3s ease 0s;
+}
+}
+
+  }
+  /*CAROUSEL*/
+  .carousel .slide{
+    background: transparent;
+    display: flex;
+background: transparent;
+align-items: center;
+justify-content: center;
+  }
+  .carousel .carousel-status{
+    display: none;
+  }
+  .carousel.carousel-slider .control-arrow{
+    display: none;
+  }
+  .carousel .thumb.selected, .carousel .thumb:hover{
+    border:none;
+  }
+  .carousel .control-dots{
+    display: none;
+  }
+
+  .carousel .thumbs{
+  display: flex;
+  justify-content: center;
+  }
+  .carousel .thumb{
+    display: flex;
+    transition: none;
+    border:none;
+  }
+}

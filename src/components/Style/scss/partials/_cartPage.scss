@@ -1,0 +1,84 @@
+#cart {
+  .logo {
+    padding-top: 190px;
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    span {
+      color: #10b2ff;
+    }
+    p {
+      margin-left: 3px;
+      margin-top: -13px;
+      font-size: 17px;
+      color: #8a8686;
+    }
+  }
+  .emotion {
+    .btn {
+      background: transparent;
+      border: none;
+      &:focus {
+        outline: none;
+        box-shadow: none;
+        border: none;
+      }
+      .fa-times {
+        color: #007bff;
+        font-size: 25px;
+      }
+    }
+  }
+  .coll {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .image {
+      width: 150px;
+    }
+    .info {
+      p {
+        border-bottom: solid 1px #b3aaaa;
+      }
+    }
+    .btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 30px;
+      height: 30px;
+
+      padding: 0;
+      margin: 0 10px;
+      .fas {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        width: 40px;
+        height: 40px;
+      }
+    }
+  }
+  .row {
+    padding-top: 25px;
+    img {
+      width: 100%;
+    }
+    .counter {
+      display: flex;
+      .number {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 22px;
+      }
+    }
+    .price {
+      font-size: 25px;
+    }
+    &:nth-of-type(1) {
+      padding-top: 150px;
+    }
+  }
+}
